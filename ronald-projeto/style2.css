@@ -1,6 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 html , body{
     height: 100%;
@@ -12,17 +15,61 @@ body{
 .voltar{
     margin: 20px 0 0 20px;
     display: flex;
-    width: 9%;
+    width: 16%;
     display: block;
     background: rgb(255, 255, 255);
     padding: 5px 20px;
     border-radius: 10px;
-    color: rgb(64, 0, 116);
-    font-weight: bold;
+    color: rgb(0, 0, 0);
     text-align: justify;
     text-decoration: none;
     box-shadow: 0 0 10px white;
 }
 .voltar a {
     text-decoration: none;
+}
+.whatsapp{
+    background: white;
+    width: 40%;
+    padding: 5px 20px;
+    border-radius:12px ;
+    color: rgb(158, 5, 196);
+    display: block;
+    margin-top: 15%;
+    margin-left: 35px;
+    box-shadow: 0 0 10px white;
+}
+.whatsapp a{
+    text-decoration: none;
+    color: black;
+}
+.whatsapp span{
+    display: block;
+}
+.whatsapp ul{
+    list-style-type: none;
+}
+.foto-whatsapp{
+    width: 15px;
+}
+.instagram {
+    background: white;
+    width: 40%;
+    padding: 5px 20px;
+    border-radius:12px ;
+    color: rgb(158, 5, 196);
+    display: block;
+    margin-top: 18px;
+    margin-left: 35px;
+    box-shadow: 0 0 10px white;
+}
+.instagram a {
+    text-decoration: none;
+    color: black;
+}
+.instagram span {
+    display: block;
+}
+.instagram ul{
+    list-style-type: none;
 }
